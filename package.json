@@ -19,7 +19,7 @@
   "homepage": "https://github.com/Flora-123/mocha-demo#readme",
   "devDependencies": {
     "chai": "^4.2.0",
-    "istanbul": "^1.0.0",
+    "istanbul": "^0.4.5",
     "mocha": "^8.0.1"
   }
 }
