@@ -4,8 +4,8 @@
   "description": "unit-test",
   "main": "add.js",
   "scripts": {
-    "test": "mocha",
-    "cover": "istanbul cover _mocha"
+    "cover": "istanbul cover _mocha",
+		"test": "mocha-headless-chrome -f test/index.html -a no-sandbox"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,9 @@
   },
   "homepage": "https://github.com/Flora-123/mocha-demo#readme",
   "devDependencies": {
-    "chai": "^4.2.0",
+    "chai": "^4.3.4",
     "istanbul": "^0.4.5",
-    "mocha": "^8.0.1"
+    "mocha": "^9.1.3",
+    "mocha-headless-chrome": "^3.1.0"
   }
 }
